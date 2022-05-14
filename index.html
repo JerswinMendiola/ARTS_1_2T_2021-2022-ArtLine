@@ -65,7 +65,18 @@ img.emoji {
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="./xmlrpc.php?rsd">
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="./wp-includes/wlwmanifest.xml"> 
 <meta name="generator" content="WordPress 5.9.3">
-		<link rel="preload" href="./wp-content/themes/twentytwentytwo/assets/fonts/SourceSerif4Variable-Roman.ttf.woff2" as="font" type="font/woff2" crossorigin>
+		<script>
+			document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );
+		</script>
+				<style>.no-js img.lazyload { display: none; }
+			figure.wp-block-image img.lazyloading { min-width: 150px; }
+							.lazyload, .lazyloading { opacity: 0; }
+				.lazyloaded {
+					opacity: 1;
+					transition: opacity 400ms;
+					transition-delay: 0ms;
+				}</style>
+				<link rel="preload" href="./wp-content/themes/twentytwentytwo/assets/fonts/SourceSerif4Variable-Roman.ttf.woff2" as="font" type="font/woff2" crossorigin>
 		<style>.wp-container-2 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;align-items: center;}.wp-container-2 > * { margin: 0; }</style>
 <style>.wp-container-3 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;align-items: center;justify-content: space-between;}.wp-container-3 > * { margin: 0; }</style>
 <style>.wp-container-4 {display: flex;gap: var( --wp--style--block-gap, 0.5em );flex-wrap: wrap;align-items: center;align-items: center;}.wp-container-4 > * { margin: 0; }</style>
@@ -99,7 +110,7 @@ img.emoji {
 </li>
 </ul></nav>
 
-<div class="animated zoomIn slower is-default-size animated zoomIn slower wp-block-site-logo"><a href="./index.html" class="custom-logo-link" rel="home"><img loading="lazy" width="1080" height="1080" src="./wp-content/uploads/2022/05/artline-logo.png" class="custom-logo" alt="ArtLine"></a></div>
+<div class="animated zoomIn slower is-default-size animated zoomIn slower wp-block-site-logo"><a href="./index.html" class="custom-logo-link" rel="home"><img width="1080" height="1080" alt="ArtLine" data-src="./wp-content/uploads/2022/05/artline-logo.png" class="custom-logo lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img width="1080" height="1080" src="./wp-content/uploads/2022/05/artline-logo.png" class="custom-logo" alt="ArtLine"></noscript></a></div>
 </div>
 </div>
 </div>
@@ -107,7 +118,8 @@ img.emoji {
 
 
 <div class="wp-block-cover animated fadeIn slower" style="padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;min-height:1087px">
-<span aria-hidden="true" class="has-background-dim-70 wp-block-cover__gradient-background has-background-dim"></span><img loading="lazy" width="4572" height="3328" class="wp-block-cover__image-background wp-image-28" alt="" src="./wp-content/uploads/2022/05/pexels-steve-johnson-1509534.jpg" style="object-position:51% 51%" data-object-fit="cover" data-object-position="51% 51%"><div class="wp-block-cover__inner-container">
+<span aria-hidden="true" class="has-background-dim-70 wp-block-cover__gradient-background has-background-dim"></span><img width="4572" height="3328" alt="" style="object-position:51% 51%" data-object-fit="cover" data-object-position="51% 51%" data-src="./wp-content/uploads/2022/05/pexels-steve-johnson-1509534.jpg" class="wp-block-cover__image-background wp-image-28 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img width="4572" height="3328" class="wp-block-cover__image-background wp-image-28" alt="" src="./wp-content/uploads/2022/05/pexels-steve-johnson-1509534.jpg" style="object-position:51% 51%" data-object-fit="cover" data-object-position="51% 51%"></noscript>
+<div class="wp-block-cover__inner-container">
 <div class="wp-block-columns" style="padding-top:11px;padding-right:11px;padding-bottom:11px;padding-left:11px">
 <div class="wp-block-column" style="flex-basis:10%">
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
@@ -237,5 +249,6 @@ img.emoji {
 	<script src="./wp-content/plugins/blocks-animation/build/animation/frontend.js?ver=46ba73bc82a900e7582d4c6d635ccbde" id="otter-animation-frontend-js"></script>
 <script src="./wp-content/plugins/blocks-animation/build/animation/anim-count.js?ver=a988b6ee4fe070282409ac6329517cd9" id="otter-count-js"></script>
 <script src="./wp-content/plugins/blocks-animation/build/animation/anim-typing.js?ver=4b7a2cfd199c0db0ebc0adc6953f3c22" id="otter-typing-js"></script>
+<script src="./wp-content/plugins/wp-smushit/app/assets/js/smush-lazy-load.min.js?ver=3.9.9" id="smush-lazy-load-js"></script>
 </body>
 </html>
